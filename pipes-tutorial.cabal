@@ -15,7 +15,7 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Lib, Echo, PipeTake, Unix
+  exposed-modules:     Lib, Echo, PipeTake, Unix, Transformers
   build-depends:       base >= 4.7 && < 5
                      , pipes
   default-language:    Haskell2010
